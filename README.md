@@ -13,6 +13,7 @@ The final project git repository should contain all of the following minimal com
     * Results (including code, figures and descriptions)
     *	Conclusions
     *	Ideas for future work
+    *	AI statement (see AI policy below)
     * References
 2.	README.md file describing:
   *	Steps needed to run the analysis code on another computer
@@ -22,10 +23,23 @@ The final project git repository should contain all of the following minimal com
 3.  Python modules
   * A .py file (or files) that containing useful functions for analysis
 
+#### AI policy and use of outside code
+
+Limited use of AI-assisted tools such as ChatGPT is allowed for this assignment, if properly documented and tested. All projects must how have an AI statement describing if and how AI tools were used in the project, as is the case for many scientific journals now. 
+
+If AI tools were used to develop any portion of code for analysis, the statement should specifically describe each portion of AI-generated analysis code. There should be documentation describing in detail how the code works, as well as how you reviewed and tested the code for accuracy. Examples of tests may be provided in a separate notebook if necessary. This is good practice for human-generated code as well. 
+
+AI tools may be used to check text for grammar and clarity. If used in this manner, this can be generally acknowledged in the AI statement without specifying each instance. AI tools may not be used to generate substantial portions of text.
+
+AI tools may also be used to assist with purely cosmetic enhancements to figures to effectively display information in graphics. If used in this manner, this can be generally acknowledged in the AI statement without specifying each instance.
+
+"Vibe coding" substantial portions of untested AI-generated code without a strong understanding what the code is doing is poor scientific practice. This approach can feel like progress at first, but often results in a maze of broken code when you want to modify something or adapt it for a new use case.
+
+Use of open source code is allowed if properly acknowledged in accordance with the software's license. 
 
 ##### Submission format:
 *	Git repository (see above)
-*	Presentation: ~~15~~ 12 minutes + time for questions. Same sections as notebook except for code. References do not need to be in separate slide.
+*	Presentation: 15 minutes + time for questions. Same sections as notebook except for code. References do not need to be in separate slide.
 
 ##### Grading criteria:
 1.	Reproducibility – another person should be able to run your code, and understand how it works [10 points]
